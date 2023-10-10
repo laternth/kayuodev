@@ -1,1 +1,15 @@
-ss
+Veritabanı herhangi bir konuda, birbiriyle ilişkili olan ve amaca uygun olarak düzenlenmiş, mantıksal ve fiziksel olarak tanımlanmış veriler bütünüdür. 
+Veritabanı Yönetim Sistemi  veritabanı tanımlamak, veritabanı oluşturmak, veritabanında işlem yapmak, veritabanının farklı kullanıcı yetkilerini belirlemek ve veritabanının bakımını ve yedeklemesini yapmak için geliştirilmiş programlara denir.
+Veritabanı ve veritabanı yönetim sisteminin birlikte oluşturduğu bütün ise veritabanı sistemi olarak ifade edilir.
+Geleneksel dosya sistemleri ile veritabanı yönetim sistemlerini karşılaştırmak Veritabanı yaklaşımından önce kullanılan ve geleneksel dosya sistemi olarak ifade edilen yaklaşımda veriler bilgisayarda ayrı ayrı dosyalar biçiminde saklanmaktaydı.
+Geleneksel dosya sistemlerinin ortaya çıkardığı sakıncalar veritabanı yönetim sistemlerinin geliştirilmesinde önemli bir etken olmuştur.
+Benzer biçimde veri paylaşımına olanak vermemesi, uygulamalarda ihtiyaç duyulan değişikliklerin gerçekleştirilebilmesi için uzmanlık bilgisi gerektirmesi, istenilen veriye ulaşmada güçlükler yaşanması, verilerin güvenliği ve gizliliği konusunda sorunlar yaşanması, veriler ve uygulamalarla ilgili belirli bir standart uygulanamaması, 
+verileri yedekleme ve kurtarma konusunda güçlükler yaşanması geleneksel dosya sistemlerinin diğer dezavantajları olarak sıralanabilir.
+Sıralanan bu dezavantajlar veritabanı yönetim sistemleri ile giderilebildiğinden, sözkonusu bu özellikler veritabanı yönetim sistemlerinin üstünlükleri olarak karşımıza çıkmaktadır.
+Uygulama programcıları ise sistem analisti tarafından belirlenen ayrıntıları program haline getiren ve daha sonra test eden, hataları ayıklayan, belgeleyen ve kaydedilmiş işlemler olarak sürekliliğini sağlayan kişilerdir.
+Veri modelleri kavramsal veri modeli, fiziksel veri modeli ve uygulama veri mo1 2 3 4 24 Veritabanı Sistemleri deli olarak sınıflandırılırlar. Veritabanının herhangi bir veri modeliyle tanımlanması ise veritabanı şeması olarak adlandırılır. Veritabanı yönetim sistemlerinde genel olarak üç şema mimarisi kullanılır.
+Bu mimaride şemalar izleyen üç düzeyde tanımlanır: İçsel (fiziksel) düzey; veritabanının fiziksel depolama yapısını tanımlayan içsel şemayı içerir.
+İçsel şema, veriyi depolama ayrıntılarının tamamını ve veritabanına erişim yollarını tanımlayan fiziksel veri modelini kullanır. Kavramsal düzey; kullanıcı topluluğu için tüm veritabanının yapısını tanımlayan kavramsal şemayı içerir.
+Kavramsal şema fiziksel depolama yapısının ayrıntılarını gizler ve veritabanında yer alan verilerin tipine, veriler arası ilişkilere, kullanıcı işlemlerine ve kısıtlara ilişkin tanımlara yoğunlaşır. Dışsal düzey; bir dizi dışsal şema ya da kullanıcı görünümü içerir.
+Çoğu VTYS tam ve açık olarak bu üç düzeye ayrılmaz fakat bu üçlü şema mimarisini bir ölçüde destekler.
+Bu nedenle dış şemada yapılan belirli bir isteği kavramsal şema isteğine daha sonra da depolanmış veritabanı üzerinde işlem yapmak üzere içsel şema isteğine dönüştürmek zorundadır.
